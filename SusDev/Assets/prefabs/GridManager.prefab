@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1555848404058603359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1555848404058603358}
+  - component: {fileID: 1555848404058603353}
+  m_Layer: 0
+  m_Name: GridManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1555848404058603358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555848404058603359}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1555848404058603353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555848404058603359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a3bef45fb837640a1a80a5a80e12df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  house:
+  - {fileID: 1090906800209161609, guid: 6dbbc8fde2952004cab94a495d9579bb, type: 3}
+  - {fileID: 8092950442812127579, guid: 40ad204605fe6bb448fea53d4b6f87bf, type: 3}
+  - {fileID: 9015914311110836452, guid: 846d9393ceaeafa45ba15c4df025b60d, type: 3}
+  - {fileID: 5483175564029454635, guid: f28a6746390508d4381eba66b49648a2, type: 3}
+  - {fileID: 5595153310328675926, guid: 745902ecbeb274846be52d5478df0882, type: 3}
+  - {fileID: 1478521411117001464, guid: d3d9d787708a545448bfcf673693884b, type: 3}
+  roadLength: 0
+  blockSize: 0
+  numOfBlocks: 0
+  gridCellSize: 0
+  smoke: {fileID: 104986760174941002, guid: 3b2355a968a328a49bef43b1890a3e8f, type: 3}

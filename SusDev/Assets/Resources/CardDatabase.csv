@@ -1,0 +1,23 @@
+ID,Card_name,Card_description,Cost,Type,Construction,Card_sprite,Environment,Life_expectancy,Social_stability,Economics,_goals,_nextCards,_isRoot
+0,tax_coal,Will raise price of coal* resulting in less pollution and more tax revenue* but hinders economic growth in short term.,0,0,-1,Cards/tax_coal,1,0,0,-1,7,20/21,1
+1,pension_security,Helps seniors maintain a quality standard of living in retirement thus reducing inequality.,2,0,0,Cards/pension_security,0,0,1,1,10,-1,1
+2,public_hospital,Public hospitals solve people's health problems and fill the gap in health opportunities between wealthy and less wealthy people.,2,1,8,Cards/public_hospital,0,1,1,0,3*8*9,32/36,1
+3,tax_tabocco,High tax on tobacco products results in fewer kids starting to smoke* and in more adults quitting.,-1,1,-1,Cards/tax_tabocco,0,1,0,0,3*8,-1,1
+4,advance_exhaust_gas,Reduces the amount of pollutants emitted from the burning of fossil fuels at an industrial facilities.,1,0,-1,Cards/advance_exhaust_gas,1,0,0,0,7*13*14*15,25,0
+5,train_station,Empowers people to travel and ship cargoes more economically,2,3,0,Cards/train_station,0,0,1,1,9*11,-1,1
+7,tech_talent,Tech workers such as data analysts* engineers* contribute to economic growth.,2,3,-1,Cards/tech_talent,0,0,0,2,4*8*9,-1,1
+8,food_stamp,Provides improved nutrition for low-income households.,1,2,-1,Cards/food_stamp,0,1,1,0,1*2*3,-1,1
+9,low_cost_housing,Offers quality living conditions for low-income residents* contributing to sustainable communities.,3,2,-1,Cards/low_cost_housing,0,0,2,0,1*10,-1,0
+10,households_subsidy,Helps more citizens afford their first household.,1,2,-1,Cards/households_subsidy,0,0,1,0,1*11,9,1
+11,bike_network,Traveling by bike contributes to the health of a city and its residents.,1,0,-1,Cards/bike_network,1,0,0,0,11*13*15,37,1
+12,small_business,Creates more jobs and improves the local economy.,1,3,0,Cards/small_business,0,0,0,2,8,26,1
+13,free_vaccine,Immunizations improve the health of citizens.,1,1,-1,Cards/free_vaccine,0,1,0,0,1*3*10,-1,1
+14,unemployment,Protect unemployed workers to increase equity.,1,2,0,Cards/unemployment,0,0,1,1,1*8,-1,1
+15,sewage_treatment,Water treatment reduces the volume of waste that is released into the ecosystem.,3,1,3,Cards/sewage_treatment,1,2,0,0,6*12,39,1
+16,social_security,This includes access to health* and social protection benefits to improve quality of life.,0,2,-1,Cards/social_security,0,0,1,1,8*10,19,1
+38,minimum_wage,Formulates minimum wage to protect workers.,0,2,0,Cards/minimum_wage,0,0,1,1,1*8*10,28,1
+42,ban_fishing,Overfishing damages entire ecosystems and pollutes our oceans.,0,0,-1,Cards/ban_fishing,1,0,0,0,14,,1
+43,establish_helpcenter,Provides resources and compassionate care for survivors.,0,3,-1,Cards/establish_helpcenter,0,0,1,0,5*16,,1
+44,pass_voter,Protect voters for a fairer election.,0,2,-1,Cards/pass_voter,0,0,1,0,16,,1
+40,create_campaign,Residents learn how wildlife is affected by people's actions.,0,0,-1,Cards/create_campaign,1,0,0,0,15,-1,1
+39,water_reuse,Wate reusage reclaims water from a variety of sources then treats and reuses it for beneficial purposes.,3,0,-1,Cards/water_reuse,1,2,0,0,6*12,-1,0

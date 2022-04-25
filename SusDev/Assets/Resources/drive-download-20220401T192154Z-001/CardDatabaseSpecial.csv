@@ -1,0 +1,22 @@
+ID,Card_name,Card_description,Cost,Type,Construction,Card_sprite,Environment,Life_expectancy,Social_stability,Economics,_goals,_nextCards,_isRoot,_conditionIndex,_conditionThresh,_changeIndex,_conditionTrue,_conditionFalse,_Ltenvironment,_Ltlife,_Ltsocial,_Lteconomic,_Ltcost
+17,more_public_school,Build more public schools to provide free and equitable education,2,2,-1,Cards/more_public_school,0,0,2,0,4*10,22/33,1,3,3,3,0,1,0,0,0,0,0
+18,subway,Build a subway to offer extremely green and convenient travel for citizens,4,0,-1,Cards/subway,1,0,1,0,9*10*11*13*15,,0,3,8,3,1,0,0,0,0,0,0
+19,equal_payment,equal pay empowering women* impacts other key goals* such as promoting inclusive societies* reducing poverty* and creating conditions for decent work and gender equality,0,2,-1,Cards/equal_payment,0,0,0,0,5,34/29,0,3,4,2,1,0,0,0,0,0,0
+20,solar_energy,Construct solar panels to boost clean energy ratio,3,0,-1,Cards/solar_energy,2,0,0,0,7,,0,1,3,1,0,1,0,0,0,0,0
+21,wind_energy,Construct wind turbines to harness clean energy,3,0,-1,Cards/wind_energy,2,0,0,0,7,,0,1,3,1,0,1,0,0,0,0,0
+22,compulsary_edu,Compulsory education refers to a period of education that is required of all people and is imposed by the government.,2,1,-1,Cards/compulsary_edu,0,0,0,0,4*5*10,,0,2,4,2,1,2,0,0,0,0,0
+23,exhaust_gas,Build a treatment system to avoid further air pollution from the fossil fuel power plant,3,0,-1,Cards/exhaust_gas,0,0,0,0,13*14*15,4,0,0,0,0,0,0,1,0,0,0,0
+24,Tech_Sector,Accelerate the development of the high technology industry,2,3,-1,Cards/Tech_Sector,0,0,0,0,8*9,,0,3,4,3,2,1,0,0,0,0,0
+25,carbon_neutral,Encourage companies to slow down the emission of CO2* thus prevent further global warming,0,0,-1,Cards/carbon_neutral,2,0,0,0,9*12*13,,0,3,3,3,0,-2,0,0,0,0,0
+26,artist_workplace,Establish a foundation for more artistic creativity,1,3,-1,Cards/artist_workplace,0,0,0,0,9*11,,0,3,7,3,1,0,0,0,0,0,0
+27,public_healthcare,Promote equitable heathcare and deliver it timely,2,1,-1,Cards/public_healthcare,0,0,0,0,3*10,,0,1,3,1,1,2,0,0,0,0,0
+28,working_condition,Ensure a healthy working schedule and environment for workers,0,2,-1,Cards/working_condition,0,0,1,0,3*9*10,,0,3,3,3,0,-1,0,0,0,0,0
+29,women_entrepreneur,Pushing ahead with encouraging women to start their own companies to negate the inequality,2,2,-1,Cards/women_entrepreneur,0,0,1,0,5*9*10,,0,3,7,3,1,0,0,0,0,0,0
+30,reimbursement,Lighten the financial burden of patients,1,1,-1,Cards/reimbursement,0,0,0,0,3*10,,1,1,4,1,1,0,0,0,0,0,0
+31,thermal_power,Facilitate the economic growth,2,3,-1,Cards/thermal_power,0,0,0,0,-1,23,1,0,0,0,0,0,-1,0,0,2,0
+32,mental_therapy,Increase the over all mental health of citizens,1,1,-1,Cards/mental_therapy,0,0,0,0,3,,0,1,5,1,1,0,0,0,0,0,0
+33,more_university,Develop more specialized talent in the city,3,3,-1,Cards/more_university,0,0,0,0,4*5*10,,0,3,5,3,1,2,0,0,0,0,0
+34,paid_maternity,Help workers and family to improve maternal health and economic security,0,2,-1,Cards/paid_maternity,0,0,1,0,5,,0,3,5,3,0,-1,0,0,0,0,0
+35,bus_service,Expand bus service to reach to more citizens and area,1,0,-1,Cards/bus_service,1,0,0,0,8*9*10*11,,0,3,3,3,0,1,0,0,0,0,0
+36,public_nursing,Offer senior citizen expert care and community,1,1,-1,Cards/public_nursing,0,0,0,0,3*10,,0,1,5,1,1,0,0,0,0,0,0
+37,nature_reserve,Protect nature and provide knowledge and value of naturee,1,0,-1,Cards/nature_reserve,0,0,0,0,13*14*15,,0,3,5,0,1,0,0,0,0,0,0
