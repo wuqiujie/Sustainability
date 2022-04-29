@@ -113,16 +113,37 @@ public class CollectionUIManager : MonoBehaviour
         DisplayCards();
     }
 
+    public void UpdateAlpha()
+    {
+        for (int i = 0; i < 17; i++)
+        {
+            if (gameManager.goalCollect[i] == true)
+            {
+                var collectedColor = goalSlot[i].transform.GetChild(1).GetComponent<Image>().color;
+                collectedColor.a = 0.5f;
+                goalSlot[i].transform.GetChild(1).GetComponent<Image>().color = collectedColor;
+            }
+            else
+            {
+                var tempColor = goalSlot[i].transform.GetChild(1).GetComponent<Image>().color;
+                tempColor.a = 0;
+                goalSlot[i].transform.GetChild(1).GetComponent<Image>().color = tempColor;
+            }
 
+        }
+
+    }
     public void NextPage()
     {
         collectionPage++;
+        UpdateAlpha();
         TurnPage(collectionPage);
     }
 
     public void PreviousPage()
     {
         collectionPage--;
+        UpdateAlpha();
         TurnPage(collectionPage);
     }
     public void TurnPage(int _page)
@@ -135,11 +156,6 @@ public class CollectionUIManager : MonoBehaviour
             {
                 goalSlot[i].gameObject.SetActive(true);
                 goalSlot[i + 8].gameObject.SetActive(false);
-                var tempColor = goalSlot[i].transform.GetChild(1).GetComponent<Image>().color;
-                tempColor.a = 0;
-                goalSlot[i].transform.GetChild(1).GetComponent<Image>().color = tempColor;
-                goalSlot[i+8].transform.GetChild(1).GetComponent<Image>().color = tempColor;
-                // Debug.Log("goal " + (i+1) + " alpha reset");
             }
             turnPageButton[0].gameObject.SetActive(false);
             turnPageButton[1].gameObject.SetActive(true);
@@ -155,11 +171,6 @@ public class CollectionUIManager : MonoBehaviour
             {
                 goalSlot[i].gameObject.SetActive(false);
                 goalSlot[i + 8].gameObject.SetActive(true);
-                var tempColor = goalSlot[i].transform.GetChild(1).GetComponent<Image>().color;
-                tempColor.a = 0;
-                goalSlot[i].transform.GetChild(1).GetComponent<Image>().color = tempColor;
-                goalSlot[i+8].transform.GetChild(1).GetComponent<Image>().color = tempColor;
-              //  Debug.Log("goal " + (i+9) + " alpha reset");
             }
             turnPageButton[1].gameObject.SetActive(true);
             turnPageButton[0].gameObject.SetActive(true);
@@ -176,9 +187,6 @@ public class CollectionUIManager : MonoBehaviour
                 goalSlot[i + 8].gameObject.SetActive(false);
                 
             }
-            var tempColor = goalSlot[16].transform.GetChild(1).GetComponent<Image>().color;
-            tempColor.a = 0;
-            goalSlot[16].transform.GetChild(1).GetComponent<Image>().color = tempColor;
             turnPageButton[1].gameObject.SetActive(false);
             turnPageButton[0].gameObject.SetActive(true);
             Search(17);

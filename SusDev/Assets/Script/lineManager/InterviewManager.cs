@@ -61,7 +61,12 @@ public class InterviewManager : MonoBehaviour
     public void InterviewBegin()
     { 
         interviewCanvas.SetActive(true);
+
         DisplayTextOnCanvas();
+        float length = goodlines.gameObject.GetComponent<Text>().text.Length;
+        goodlines.gameObject.GetComponent<typewriterUI>().startUI(0);
+        Debug.Log("Length: " + length);
+        badlines.gameObject.GetComponent<typewriterUI>().startUI(length+40);
         /*StartCoroutine(EndInterview());*/
     }
     public void EndInterview()

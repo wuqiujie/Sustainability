@@ -156,4 +156,12 @@ public class CarNavController : MonoBehaviour
         _destination = destination;
         _reachedDestination = false;
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Vehicle")
+        {
+            transform.position = _destination;
+            _reachedDestination = true;
+        }
+    }
 }
